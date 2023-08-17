@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: black;
+   }
+   .container-main{
+  height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .intagram-post{
+   
+       width: 400px;
+       background: white;
+   }
+   .instagram-header{
+  
+       display: flex;
+       justify-content: space-between;
+       padding: 15px 15px;
+   }
+   .instagram-header--image{
+       display: flex;
+      align-items: center;
+   }
+   .instagram-header--image > div >p{
+       margin: 0px;
+   }
+   .instagram-header-icon{
+    font-size: 30px;
+    padding-right: 10px;
+   }
+   .instagram-header---menu{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+   }
+   .post-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 10px 20px ;
+   }
+   .icon-text{
+    padding: 10px 20px ;
+   }
+   .icon-text p{
+    margin: 0;
+   }
+   .icon-text p:nth-child(1){
+    margin-bottom: 10px;
+   }
